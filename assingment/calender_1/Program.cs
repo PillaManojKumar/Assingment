@@ -1,9 +1,9 @@
 ﻿Console.Write("Enter month(Press 1 for Jan, 2 for Feb, 12 for Dec......): ");
-int month = Convert.ToInt32(Console.ReadLine());
+int month = Convert.ToInt16(Console.ReadLine());
 Console.Write("Enter year: ");
-int year = Convert.ToInt32(Console.ReadLine());
+int year = Convert.ToInt16(Console.ReadLine());
 Console.Write("Enter Day of week(Press 1 for Mon, 2 for Tue, 7 for Sun......): ");
-int startDay = Convert.ToInt32(Console.ReadLine());
+int startDay = Convert.ToInt16(Console.ReadLine());
 
 int numDays = DateTime.DaysInMonth(year, month);
 
